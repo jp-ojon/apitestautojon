@@ -1,4 +1,4 @@
-# RestAssured Test Suite for Sogeti Automation Task API Tetst by Jon Paulo Ojon
+# RestAssured Test Suite for Automation Task API Tests by Jon Paulo Ojon
 ## Overview
 This test suite includes automated API tests for http://api.zippopotam.us/de/bw/stuttgart and Data Driven Test for http://api.zippopotam.us/{country}/{postal-code}
 
