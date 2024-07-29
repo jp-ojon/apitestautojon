@@ -108,17 +108,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="api.tests.ApiTests" class="method navigator-link" hash-for-method="testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)">testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="api.tests.ApiTests" class="method navigator-link" hash-for-method="testGetRequestByCountryAndPostalCode(us, 90210, Beverly Hills)">testGetRequestByCountryAndPostalCode(us, 90210, Beverly Hills)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="api.tests.ApiTests" class="method navigator-link" hash-for-method="testGetRequestByCountryAndPostalCode(ca, B2R, Waverley)">testGetRequestByCountryAndPostalCode(ca, B2R, Waverley)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="api.tests.ApiTests" class="method navigator-link" hash-for-method="testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)">testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestSuite -->
@@ -144,14 +144,8 @@
                   <a name="testGetRequestByCityAndState">
                   </a> <!-- testGetRequestByCityAndState -->
                   <span class="method-name">testGetRequestByCityAndState</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)">
-                  </a> <!-- testGetRequestByCountryAndPostalCode(us, 12345, Schenectady) -->
-                  <span class="method-name">testGetRequestByCountryAndPostalCode</span>
-                  <span class="parameters">(us,12345,Schenectady)</span>
+                  <em>
+(Write API Test for http://api.zippopotam.us/de/bw/stuttgart)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -160,6 +154,8 @@
                   </a> <!-- testGetRequestByCountryAndPostalCode(us, 90210, Beverly Hills) -->
                   <span class="method-name">testGetRequestByCountryAndPostalCode</span>
                   <span class="parameters">(us,90210,Beverly Hills)</span>
+                  <em>
+(Write API Data Driven Test for http://api.zippopotam.us/{country}/{postal-code})                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -168,6 +164,18 @@
                   </a> <!-- testGetRequestByCountryAndPostalCode(ca, B2R, Waverley) -->
                   <span class="method-name">testGetRequestByCountryAndPostalCode</span>
                   <span class="parameters">(ca,B2R,Waverley)</span>
+                  <em>
+(Write API Data Driven Test for http://api.zippopotam.us/{country}/{postal-code})                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)">
+                  </a> <!-- testGetRequestByCountryAndPostalCode(us, 12345, Schenectady) -->
+                  <span class="method-name">testGetRequestByCountryAndPostalCode</span>
+                  <span class="parameters">(us,12345,Schenectady)</span>
+                  <em>
+(Write API Data Driven Test for http://api.zippopotam.us/{country}/{postal-code})                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,24 +236,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGetRequestByCityAndState')
 data.setCell(0, 2, 'api.tests.ApiTests')
-data.setCell(0, 3, 2177);
+data.setCell(0, 3, 2303);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testGetRequestByCountryAndPostalCode')
 data.setCell(1, 2, 'api.tests.ApiTests')
-data.setCell(1, 3, 246);
+data.setCell(1, 3, 637);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testGetRequestByCountryAndPostalCode')
 data.setCell(2, 2, 'api.tests.ApiTests')
-data.setCell(2, 3, 241);
+data.setCell(2, 3, 625);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testGetRequestByCountryAndPostalCode')
 data.setCell(3, 2, 'api.tests.ApiTests')
-data.setCell(3, 3, 240);
+data.setCell(3, 3, 245);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -272,53 +280,37 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">api.tests.ApiTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBeforeMethod</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetRequestByCityAndState</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2188 ms</span>
+                <span class="method-start">2305 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBeforeMethod</span>
-                <span class="method-start">2194 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetRequestByCountryAndPostalCode(us, 90210, Beverly Hills)</span>
-                <span class="method-start">2194 ms</span>
+                <span class="method-start">2314 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2441 ms</span>
+                <span class="method-start">2940 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBeforeMethod</span>
-                <span class="method-start">2442 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetRequestByCountryAndPostalCode(us, 12345, Schenectady)</span>
-                <span class="method-start">2442 ms</span>
+                <span class="method-start">2941 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2683 ms</span>
+                <span class="method-start">3187 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBeforeMethod</span>
-                <span class="method-start">2684 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetRequestByCountryAndPostalCode(ca, B2R, Waverley)</span>
-                <span class="method-start">2684 ms</span>
+                <span class="method-start">3187 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2926 ms</span>
+                <span class="method-start">3824 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

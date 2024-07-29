@@ -12,7 +12,7 @@ Jon Paulo Ojon
 
 ## Installation
 1. Clone the repository and go to project directory
-- git clone https://github.com/jp-ojon/sogeti-ui-test-auto-jon.git
+- git clone https://github.com/jp-ojon/apitestautojon.git
 - change directory to root folder apitestautojon
 
 ## Test Cases
