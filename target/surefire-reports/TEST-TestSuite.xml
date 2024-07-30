@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="4.262" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="3.661" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jon Paulo\AppData\Local\Temp\surefire12326462385971216276\surefirebooter-20240729230807398_3.jar C:\Users\Jon Paulo\AppData\Local\Temp\surefire12326462385971216276 2024-07-29T23-08-06_558-jvmRun1 surefire-20240729230807398_1tmp surefire_0-20240729230807398_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jon Paulo\AppData\Local\Temp\surefire15453063123215914330\surefirebooter-20240730230640139_3.jar C:\Users\Jon Paulo\AppData\Local\Temp\surefire15453063123215914330 2024-07-30T23-06-39_978-jvmRun1 surefire-20240730230640139_1tmp surefire_0-20240730230640139_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Projects\Java Projects\rest-assured-api-test-auto-jon\apitestautojon\target\test-classes;C:\Projects\Java Projects\rest-assured-api-test-auto-jon\apitestautojon\target\classes;C:\Users\Jon Paulo\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Jon Paulo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jon Paulo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Jon Paulo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Jon Paulo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Jon Paulo\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Jon Paulo\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Jon Paulo\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Jon Paulo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Jon Paulo\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Jon Paulo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Jon Paulo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Jon Paulo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Jon Paulo\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Jon Paulo\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Jon Paulo\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Jon Paulo\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Jon Paulo\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Jon Paulo\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Jon Paulo\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Jon Paulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Jon Paulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Jon Paulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jon Paulo\AppData\Local\Temp\surefire12326462385971216276\surefirebooter-20240729230807398_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jon Paulo\AppData\Local\Temp\surefire15453063123215914330\surefirebooter-20240730230640139_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -58,10 +58,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testGetRequestByCityAndState" classname="api.tests.ApiTests" time="2.306">
-    <system-out><![CDATA[Status code: 200
+  <testcase name="testGetRequestByCityAndState" classname="api.tests.ApiTests" time="2.472">
+    <system-out><![CDATA[debwstuttgart
+http://api.zippopotam.us/{country}/{state}/{city}
+Status code: 200
 Content type: application/json
-Response Time: 730 milliseconds
+Response Time: 705 milliseconds
 Country: Germany
 State: Baden-Württemberg
 Place found 70597 Stuttgart Degerloch
@@ -71,26 +73,26 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetRequestByCountryAndPostalCode[us, 90210, Beverly Hills](1)" classname="api.tests.ApiTests" time="0.637">
+  <testcase name="testGetRequestByCountryAndPostalCode[us, 90210, Beverly Hills](1)" classname="api.tests.ApiTests" time="0.226">
     <system-out><![CDATA[Status code: 200
 Content type: application/json
-Response Time: 617 milliseconds
+Response Time: 209 milliseconds
 Input Data: us 90210 Beverly Hills
 Place found US 90210 Beverly Hills
 ]]></system-out>
   </testcase>
-  <testcase name="testGetRequestByCountryAndPostalCode[us, 12345, Schenectady](2)" classname="api.tests.ApiTests" time="0.243">
+  <testcase name="testGetRequestByCountryAndPostalCode[us, 12345, Schenectady](2)" classname="api.tests.ApiTests" time="0.241">
     <system-out><![CDATA[Status code: 200
 Content type: application/json
-Response Time: 240 milliseconds
+Response Time: 236 milliseconds
 Input Data: us 12345 Schenectady
 Place found US 12345 Schenectady
 ]]></system-out>
   </testcase>
-  <testcase name="testGetRequestByCountryAndPostalCode[ca, B2R, Waverley](3)" classname="api.tests.ApiTests" time="0.64">
+  <testcase name="testGetRequestByCountryAndPostalCode[ca, B2R, Waverley](3)" classname="api.tests.ApiTests" time="0.231">
     <system-out><![CDATA[Status code: 200
 Content type: application/json
-Response Time: 633 milliseconds
+Response Time: 226 milliseconds
 Input Data: ca B2R Waverley
 Place found CA B2R Waverley
 ]]></system-out>

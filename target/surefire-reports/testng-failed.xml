@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="testGetRequestByCityAndState"/>
-          <include name="setUpBeforeMethod"/>
+          <include name="testGetRequestByCountryAndPostalCode" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- api.tests.ApiTests -->
     </classes>

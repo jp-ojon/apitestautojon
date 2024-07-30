@@ -18,6 +18,8 @@ public class EndPoints {
 				.when().get(Routes.get_url_city)
 				.then()//.log().all()
 				.extract().response();
+		System.out.println(country + state + city);
+		System.out.println(Routes.get_url_city);
 		return response;
 	}
 	

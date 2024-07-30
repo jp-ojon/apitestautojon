@@ -5,7 +5,8 @@
     <classes>
       <class name="api.tests.ApiTests">
         <methods>
-          <include name="testGetRequestByCountryAndPostalCode" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="testGetRequestByCityAndState"/>
         </methods>
       </class> <!-- api.tests.ApiTests -->
     </classes>
