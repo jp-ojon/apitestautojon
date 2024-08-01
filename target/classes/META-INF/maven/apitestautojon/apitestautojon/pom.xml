@@ -5,6 +5,11 @@
 	<groupId>apitestautojon</groupId>
 	<artifactId>apitestautojon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	    <properties>
+        <!-- Specify the Java version -->
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
+    </properties>
 	<build>
 		<pluginManagement>
 			<plugins>

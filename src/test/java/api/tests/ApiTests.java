@@ -71,17 +71,17 @@ public class ApiTests {
 		System.out.println("State: "+state);
 
 		// Assert that the country is correct as expected. "country" is "Germany"
-		Assert.assertEquals(country, "Germany", "Country value is correct as expected");
+		Assert.assertEquals(country, "Germany", "Country value not as expected");
 
 		// Assert that the state is correct as expected. "state" is "Baden-Württemberg".
-		Assert.assertEquals(state, "Baden-Württemberg", "State value is correct as expected");
+		Assert.assertEquals(state, "Baden-Württemberg", "State value not as expected");
 
 		// Call method to check if place name is found in the list of places. "70597" is "Stuttgart Degerloch"
 		placeFound = Utilities.VerifyListOfPlacesRequestByCountryCityAndState(response, "70597",
 				"Stuttgart Degerloch");
 
 		// Assert that the place name is found
-		Assert.assertTrue(placeFound, "Place is found under the provided postal code");
+		Assert.assertTrue(placeFound, "Place is not found under the provided postal code");
 	}
 
 	@Test(priority = 2, description = "Write API Data Driven Test for http://api.zippopotam.us/{country}/{postal-code}", dataProvider = "csvData" )
@@ -109,7 +109,7 @@ public class ApiTests {
 				postalCode, placeName);
 		
 		// Assert that the place name is found
-		Assert.assertTrue(placeFound, "Place is found under the provided postal code and country");
+		Assert.assertTrue(placeFound, "Place is not found under the provided postal code and country");
 
 	}
 
